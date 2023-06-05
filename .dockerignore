@@ -1,0 +1,27 @@
+# Ignore development files and directories
+.git
+node_modules
+pnpm-lock.yaml
+pnpm-workspace.yaml
+yarn.lock
+
+# Ignore NestJS build output
+dist
+
+# Ignore editor-specific files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Ignore test files
+test
+tests
+*.spec.ts
+
+# Ignore Docker related files
+Dockerfile
+.dockerignore
+
+# Ignore other project-specific files
+#.env
