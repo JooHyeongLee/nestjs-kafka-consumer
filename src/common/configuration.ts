@@ -11,7 +11,7 @@ export default () => ({
     query_log: process.env.DATABASE_QUERY_LOG || ''
   },
   kafka: {
-    broker1: process.env.KAFKA_BROKER1 || '',
-    broker2: process.env.KAFKA_BROKER2 || '',
+    broker1: process.env.KAFKA_BROKER1 || 'kafka_1:29092',
+    broker2: process.env.KAFKA_BROKER2 || 'kafka_2:29093',
   },
 });
