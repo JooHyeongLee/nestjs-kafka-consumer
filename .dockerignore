@@ -24,4 +24,4 @@ Dockerfile
 .dockerignore
 
 # Ignore other project-specific files
-#.env
+.env
